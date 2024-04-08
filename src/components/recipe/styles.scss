@@ -1,0 +1,30 @@
+.recipe {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  .img {
+    height: 350px;
+    width: 100%;
+    background-color: #000;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  span {
+    padding-right: 20px;
+    font-weight: 700;
+  }
+  button {
+    width: 120px;
+    padding: 8px 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    text-align: start;
+    cursor: pointer;
+  }
+}
